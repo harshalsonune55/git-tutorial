@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+.search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+.search-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+.search-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.search-btn:hover {
+    background: #45a049;
+}
+.university-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+.university-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    color: white;
+    transition: transform 0.2s ease;
+}
+.university-list li:hover {
+    transform: translateX(10px);
+}
